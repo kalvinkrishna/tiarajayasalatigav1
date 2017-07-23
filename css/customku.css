@@ -1,0 +1,273 @@
+body{
+	background-color: #F7F7F7;
+}
+.atas{
+	background:url("../tiarajayaAset/Asset 17.png");
+	background-size: cover;
+	height: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	max-height: 700px;
+	min-height: 700px;
+}
+#section-satu-tanda{
+	letter-spacing: 0.05em;
+}
+.CatamaranBold{
+	font-weight: 700;
+	font-family: Catamaran;
+}
+.CatamaranReg{
+	font-weight: 400;
+	font-family: Catamaran;
+}
+.robotoreg{
+	font-weight: 400;
+	font-family: Roboto;
+}
+.robotomed{
+	font-weight: 500;
+	font-family: Roboto;
+}
+.oye{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	letter-spacing: 0.1em;
+}
+.paragraf{
+	color: #1D1D1B;
+}
+.paragraf-contactus{
+	font-family: Roboto;
+	font-weight: 100;
+}
+.imgs{
+	float: none !important;
+	vertical-align: middle;
+	position: absolute;
+}
+.erfs{
+	background:url("../tiarajayaAset/Asset 25.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	width: 56% !important;
+}
+.tirta{
+	top: 42%;
+    left: 30%;
+}
+h3.imgs{
+	top:57%;
+	left:38%;
+}
+#line-left{
+	left: 0px;
+	top: 52%;
+	padding-left: 0px;
+}
+#line-right{
+	top: 52%;
+	right: 0px;
+	padding-right: 0px;
+}
+.list ul{
+	list-style: decimal;
+}
+.list ul li{
+	line-height: 30px;
+	text-align: center;
+	padding-bottom: 50px;
+	    font-size: 1.7em;
+}
+.padding-left-null{
+	padding-left: 0px;
+}
+.padding-right-null{
+	padding-right: 0px;
+}
+.struct{
+	background-color: #1D1E1D;
+	color: #FFFFFF;
+	padding-bottom: 235px;
+	padding-top: 20px;
+}
+.dominic{
+	min-height: 300px;
+}
+.dominic img{
+	max-height: 145px !important;
+	min-height: 125px;
+}
+.dominic img:nth-child(1){
+	margin-bottom:10px;
+}
+.imgcon img{
+	max-height: 258px;
+	overflow: hidden;
+	padding: 0px !important;
+}
+.imgcon div:nth-child(1) img,.imgcon div:nth-child(2) img{
+	min-height: 300px;
+}
+.imgcon div:nth-child(1){
+	padding-left: 0px;
+}
+.imgcon div:nth-child(3){
+	padding-right: 0px;
+}
+.imgcon div:nth-child(2){
+	padding: 0px;
+}
+.slide2 img{
+	max-height: 400px;
+	min-height: 400px;
+	width: 100%;
+}
+.co p{
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.service p{
+	font-size: 14pt;
+}
+.myback{
+	background:url("../tiarajayaAset/Asset 15.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 0px;
+}
+.myback .service{
+	color: #FFFFFF;
+}
+.contact{
+	padding-bottom: 30px;
+}
+.foot{
+	background-color: #1D1E1D;
+	padding: 30px 0px;
+}
+@media(min-width: 1025px){
+	#section-satu-tanda{
+		top: 65% !important;
+	}
+	.list ul li{
+		font-size: 14pt;
+	}
+}
+@media(min-width: 992px) and (max-width: 1024px){
+	.service p {
+   		 font-size: 12pt !important;
+	}
+	.list ul li {
+    	line-height: 21px !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.struct{
+		    padding-bottom: 50px !important;
+	}
+	.tirta{
+		top: 45% !important;
+	}
+	.myback{
+		background: #272822;
+	}
+	.service p {
+		    font-size: 1.7em !important;
+	}
+
+	h3.imgs{
+		left: 38% !important;
+	}
+	.counter>img:nth-child(2){
+		left: 35% !important;
+	}
+	.imgcon img{
+		min-height: 300px;
+	}
+	.dominic img{
+		min-height: 140px !important;
+	}
+
+	.slide2 img {
+		min-height: 385px;
+	}
+	.list ul{
+		font-size: 0.9em;
+		margin-bottom: 50px;
+	}
+
+	.container {
+    	width: 100% !important;
+	}
+	.contact div{
+		font-size:16px;
+	}
+	.contacts{
+		margin-top: 15px;
+	}
+	.contacts div{
+		font-size: 2.5em;
+	}
+}
+@media (max-width: 767px) {
+	.myback{
+		background: #272822;
+	}
+
+	.contacts div{
+		font-size: 3.4em;
+	}
+	.contact div{
+		font-size: 16px;
+	}
+	.service p {
+		    font-size: 2.5em !important;
+	}
+	.imgcon img{
+		min-height: 300px;
+	}
+	h3.imgs{
+		left: 37% !important;
+	}
+	.counter>img:nth-child(2){
+		left: 35% !important;
+	}
+
+	.dominic img{
+		min-height: 150px !important;
+	}
+
+	.slide2 img {
+		min-height: 349px;
+	}
+	.list ul{
+		padding: 0px !important;
+		font-size: 1.4em;
+	}
+}
+
+.client div img{
+	max-height: 100px !important;
+	min-height: 100px;
+	display: block;
+	margin: 30px auto;
+}
+.client-offset{
+	position: absolute;
+	bottom: 0px;
+	height: auto;
+	width: 100%;
+	left: 0px;
+}
+#carousel-example-generics .item img{
+	max-height: 100px;
+	display: block;
+	margin: auto;
+}
+#carousel-example-generics ol li{
+	list-style: none;
+}
